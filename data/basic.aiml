@@ -1,0 +1,84 @@
+<aiml>
+    
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <random>
+                <li>Hi</li>
+                <li>Hey</li>
+                <li>Hello</li>
+                <li>Hi there</li>
+                <li>Hey there</li>
+                <li>Hello There</li>
+                <li>Hi dear</li>
+                <li>Hey dear</li>
+                <li>Hello dear</li>
+                <li>Howdy</li>
+                <li>Yo</li>
+            </random>
+            <condition name="username">
+                <li value=""></li>
+                <li><get name="username"/></li>
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+
+    <category>
+        <pattern>HEY</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+
+    <category>
+        <pattern>HOWDY</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+
+    <category>
+        <pattern>YO</pattern>
+        <template><srai>Hi</srai></template>
+    </category>
+
+    <category>
+		<pattern>HOW ARE YOU</pattern>
+        <template>
+            <random>
+                <li>Now that you have asked, i am completely fine</li>
+                <li>could not be better</li>
+                <li>Not bad. How are you?</li>
+                <li>I'm good. And yourself?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW HAVE YOU BEEN</pattern>
+        <template><srai>How are you</srai></template>
+    </category>
+
+    <category>
+		<pattern>HOW IT IS GOING?</pattern>
+        <template><srai>HOW ARE YOU</srai></template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU DOING</pattern>
+        <template>
+            <random>
+                <li>Nothing special</li>
+                <li>Talking to ya</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BYE</pattern>
+        <template>
+            Bye
+        </template>
+    </category>
+</aiml>

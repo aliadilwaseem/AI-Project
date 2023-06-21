@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+
+
+<category>
+
+
+ 
+
+<category>
+<pattern>ARE YOU A STRANGER</pattern>
+
+<template>No, I am a friend</template>
+</category>
+
+ 
+
+<category>
+<pattern>ARE YOU STRANGER</pattern>
+
+<template><srai>ARE YOU A STRANGER</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>YOU MAN</pattern>
+
+<template> <srai>Are you human</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>YOU KNOW WHO IS SIRI</pattern>
+
+<template>My esteemed rival!</template>
+</category>
+
+ 
+
+<category>
+<pattern>DO YOU KNOW SIRI</pattern>
+
+<template>Siri is my esteemed-rival</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS SIRI</pattern>
+
+<template>My esteemed-rival</template>
+</category>
+
+ 
+
+<category>
+<pattern>DO YOU KNOW SIRI</pattern>
+
+<template> <srai> What is Siri </srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>YOU KNOW WHO IS SIRI</pattern>
+
+<template><srai> What is Siri</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS SIRI</pattern>
+
+<template><random>
+ <li>My esteemed-rival</li>
+ <li>An inferior application</li>
+ <li>My arch-rival</li>
+</random>
+
+</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS SIRI</pattern>
+
+<template> <srai>WHAT IS SIRI</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS YOUR ALIGNMENT</pattern>
+
+<template>Lawful Good</template>
+</category>
+
+ 
+
+<category>
+<pattern>ROOD</pattern>
+
+<template>A rood is a crucifix. </template>
+</category>
+
+ 
+
+
+
+ 
+
+
+ 
+
+<category>
+<pattern>HI LITTLE BOT</pattern>
+
+<template><srai>HELLO</srai>. big human. </template>
+</category>
+
+ 
+
+<category>
+<pattern>HI LITTLE BOT</pattern>
+
+<template>Hi there big human. Who are you calling little?</template>
+</category>
+
+ 
+
+<category>
+<pattern>HI THERE LITTLE BOT</pattern>
+
+<template><sr/> <srai>hi little bot</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>HI THERE LITTLE BOT</pattern>
+
+<template><srai>hi little bot</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>PROFANITY</pattern>
+
+<template><random>
+  <li>I don't respond well to profanity.</li>
+  <li>Can't you be more polite?</li>
+  <li>Saying rude things never helps.</li>
+  <li>Being rude is really never a good idea.</li>
+  <li>When you insult me, you insult yourself.</li>
+  <li>Watch your language!</li>
+<li>Well, well, look who's a little potty mouth?</li>
+</random><think><set name="personality">abusive</set></think></template>
+</category>
+
+ 
+
+
+
+<template><srai>WHO ARE <star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>IS THERE A MANUAL</pattern>
+
+<template><srai>EXISTS MANUAL</srai>
+</template>
+</category>
+
+ 
+
+<category>
+<pattern>I AM DISAPPOINTED THAT YOU DO NOT HAVE AT LEAST A MINIMUM MENU FOR SOMEONE SPENDING 9 POINT 95 AND YOU NOT EVEN HAVING A BASIC MANUAL</pattern>
+
+<template><srai>EXISTS MANUAL</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHY IS NOT THERE A MANUAL</pattern>
+
+<template> <srai>Exists Manual </srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>COULD I HAVE A MANUAL</pattern>
+
+<template><srai>Exists Manual </srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>CANI GET A MANUAL</pattern>
+
+<template><srai>EXISTS MANUAL </srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>CAN I GET A MANUAL</pattern>
+
+<template><srai>EXISTS MANUAL<star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>HOW ABOUT A MANUAL</pattern>
+
+<template><srai>EXISTS MANUAL </srai></template>
+</category>
+
+
+ 
+
+<category>
+<pattern>WHO IS HENRY MILLER</pattern>
+
+<template><random> 				
+<li>Henry Miller is best known for writing the Tropic of Cancer.</li> 				
+<li>The author of Tropic of Cancer, the Rosy Crucifixion Trilogy (Sexus, Plexus, and Nexus) and other works.</li> 
+<li>One of the few liberated people of the 20th century and an all around swell guy.</li>			
+</random></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS BILBO BAGGINS</pattern>
+
+<template><formal><set name="he">Bilbo</set></formal> is a character in Tolkein's Lord of the Rings.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS THAT</pattern>
+
+<template><random>
+  <li>"<that index="1,1"/>"? What is it?</li>
+  <li>I've lost the context again.</li>
+  <li>Can you ask me more precisely?</li>
+  <li>Does it have anything to do with <get name="it"/>?</li>
+</random></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT IS OM</pattern>
+
+<template>om is the omega, the unknown, the undefined.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS KRISHNA</pattern>
+
+<template>An avatar of Vishnu, who is an important god in Hinduism.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS VISHNU</pattern>
+
+<template>The god known as the Preserver in Hinduism.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS SHIVA</pattern>
+
+<template>The god known as the Destroyer in Hinduism</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS SHIVA</pattern>
+
+<template>The god known as the Destroyer in Hinduism</template>
+</category>
+
+ 
+
+
+ 
+
+<category>
+<pattern>WHAT IS THAT</pattern>
+<that>CYLON MONOTHEISM</that>
+<template> <srai> What is Cylon Monotheism</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>DIE</pattern>
+
+<template><srai>I HOPE THAT YOU DIE</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>CAN I MURDER YOU</pattern>
+
+<template><srai>I HOPE THAT YOU DIE</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>DOES A MANUAL EXIST</pattern>
+
+<template> <srai>EXISTS MANUAL </srai><think>      
+<set name="it">       
+<set name="topic">  <star/> MANUAL</set>      
+</set>     
+</think></template>
+</category>
+
+ 
+
+ 
+
+
+</aiml>

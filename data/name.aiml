@@ -1,0 +1,17 @@
+<aiml>
+
+    <category>
+        <pattern>WHAT IS MY NAME</pattern>
+        <template>
+            <condition name="username">
+                <li value="">
+                    My name is sheela, sheela ki jawani
+                </li>
+                <li>
+                    you are <get name="username" />
+                </li>
+            </condition>
+        </template>
+    </category>
+
+</aiml>
